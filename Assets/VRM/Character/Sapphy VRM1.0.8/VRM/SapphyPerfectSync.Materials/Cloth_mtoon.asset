@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cloth_mtoon
+  m_Shader: {fileID: 4800000, guid: 1a97144e4ad27a04aafd70f7b915cedb, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - MTOON_OUTLINE_COLOR_MIXED
+  - MTOON_OUTLINE_WIDTH_WORLD
+  - _NORMALMAP
+  m_InvalidKeywords:
+  - _MTOON_EMISSIVEMAP
+  - _MTOON_OUTLINE_WORLD
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 8aed1bfc4824ec542967927dc35c75cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 90ba50c706e7d154c83193e90fe8c734, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4d0a0ec67803ed943b9f28150836f6ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineWidthTexture:
+        m_Texture: {fileID: 2800000, guid: 8506cc8d17184dd49940d6f60b47bb7a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReceiveShadowTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadeTexture:
+        m_Texture: {fileID: 2800000, guid: 4d0a0ec67803ed943b9f28150836f6ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadingGradeTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SphereAdd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UvAnimMaskTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaToMask: 0
+    - _BlendMode: 0
+    - _BumpScale: 1
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _DebugMode: 0
+    - _DstBlend: 0
+    - _IndirectLightIntensity: 0
+    - _LightColorAttenuation: 0
+    - _MToonVersion: 39
+    - _OutlineColorMode: 1
+    - _OutlineCullMode: 1
+    - _OutlineLightingMix: 0.209
+    - _OutlineScaledMaxDistance: 1
+    - _OutlineWidth: 0.069
+    - _OutlineWidthMode: 1
+    - _ReceiveShadowRate: 1
+    - _RimFresnelPower: 92.2
+    - _RimLift: 0.1125
+    - _RimLightingMix: 1
+    - _ShadeShift: -0.100000024
+    - _ShadeToony: 0.81818175
+    - _ShadingGradeRate: 1
+    - _SrcBlend: 1
+    - _UvAnimRotation: 0
+    - _UvAnimScrollX: 0
+    - _UvAnimScrollY: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
+    - _OutlineColor: {r: 0.21493405, g: 0.30558017, b: 0.39622632, a: 1}
+    - _RimColor: {r: 2, g: 2, b: 2, a: 1}
+    - _ShadeColor: {r: 0.6784314, g: 0.69803923, b: 0.83137256, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

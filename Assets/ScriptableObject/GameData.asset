@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d91a5f05edf0b494790be6b5f4a21eee, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  maxScore: 0
+  gachaCost:
+    _value: 300
+  player:
+    name: "\u30B5\u30D5\u30A3\u30FC"
+    moveSpeed: 6
+    rotateSpeed: 500
+    dash: 1.5
+    jumpPower: 1.5
+    hp_max: 10
+    hp_now: 10
+    sp_max: 10
+    sp_now: 10
+    atk: 5
+    def: 5
+  items:
+  - _rarity: 1
+    _name: Garbage
+    _sprite: {fileID: 21300000, guid: 5cd983b59af90db4a8a94468f379f163, type: 3}
+    _quantity: 0
+    _interval: 5
+    timer: 0
+  - _rarity: 1
+    _name: Herb
+    _sprite: {fileID: 21300000, guid: 1f476085ec6dc784abdda4d9e43899c9, type: 3}
+    _quantity: 0
+    _interval: 10
+    timer: 0
+  - _rarity: 2
+    _name: Juice
+    _sprite: {fileID: 21300000, guid: f736c76a827b3384ba09af5ecf23769d, type: 3}
+    _quantity: 0
+    _interval: 20
+    timer: 0
+  - _rarity: 3
+    _name: Drug
+    _sprite: {fileID: 21300000, guid: b841237045f1aea4fa36ca32c8560f9e, type: 3}
+    _quantity: 0
+    _interval: 30
+    timer: 0
+  - _rarity: 2
+    _name: PowerUp
+    _sprite: {fileID: 21300000, guid: 260e141bc3ad74742a9d935e04d3452a, type: 3}
+    _quantity: 0
+    _interval: 30
+    timer: 0
+  - _rarity: 3
+    _name: Invin
+    _sprite: {fileID: 21300000, guid: 4098d7c013e702f4185d6666ec103ccf, type: 3}
+    _quantity: 0
+    _interval: 60
+    timer: 0
+  - _rarity: 2
+    _name: ResetTimer
+    _sprite: {fileID: 21300000, guid: 041a2715663cc794c8fd6ffd8302c8f8, type: 3}
+    _quantity: 0
+    _interval: 60
+    timer: 0
+  - _rarity: 2
+    _name: Random
+    _sprite: {fileID: 21300000, guid: 13df4b2074ce61341b426645c78a3716, type: 3}
+    _quantity: 0
+    _interval: 20
+    timer: 0
+  questTime: 180
+  questTimeCountor: 180
+  useItemCount: 0
+  killEnemyCountor: 0
